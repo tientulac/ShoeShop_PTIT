@@ -165,7 +165,7 @@ export class OrderComponent extends BaseComponent implements OnInit {
           this.handleCancel();
         }
         else {
-          this.toastr.warning(res.message);
+          this.toastr.warning(res.exMessage);
         }
       }
     );
